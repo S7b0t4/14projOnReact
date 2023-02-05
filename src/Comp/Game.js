@@ -52,6 +52,7 @@ const Game = () => {
     return(
       <>
         <div>Результат: {ans} из {questions.length -1}</div>
+        <button className='asnw_btn' onClick={()=>setNum(0)}>Занова</button>
       </>
     )
   }
