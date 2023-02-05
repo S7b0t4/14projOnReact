@@ -1,0 +1,23 @@
+.title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.answ{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.asnw_btn{
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    background: blue;
+    color: white;
+}
+.asnw_btn:hover{
+    background: olivedrab;
+}
+.line{
+    background: blue;
+}
